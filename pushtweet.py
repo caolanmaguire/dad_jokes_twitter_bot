@@ -1,7 +1,7 @@
 import tweepy
 
 def post_tweet(credentials,tweet):
-    print(credentials["TwitterCredentials"][0])
+    # print(credentials["TwitterCredentials"][0])
 
     # Authenticate to Twitter
     auth = tweepy.OAuthHandler(credentials["TwitterCredentials"][0]["APIKey"], credentials["TwitterCredentials"][0]["APIKeySecret"])
@@ -12,6 +12,7 @@ def post_tweet(credentials,tweet):
     try:
         api.verify_credentials()
         print("Authentication OK")
+        print("I tweeted : ) ")
     except:
         print("Error during authentication")
 
