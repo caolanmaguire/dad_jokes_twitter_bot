@@ -2,9 +2,10 @@ Welcome to Dad Jokes Twitter Bot!
 
 - - - - - - - - - - 
 
+
 Options : 
+
 
 1 ) Generate funny tweet and tweet now
 2 ) Set up loop and tweet every x minutes
 3 ) Exit Program
-
